@@ -26,8 +26,10 @@ while (opcion !== "3") {
             const compraPlacaVideo = parseInt(prompt("Ingrese la cantidad de placas de video que desea comprar:"));
             verificarStock(compraPlacaVideo);
             break;
+             // Mostrar el número actual de placas de video
         case "2":
-            verificarStock(0); // Mostrar el stock actual sin realizar una compra
+            alert("Número actual de placas de video: " + placaVideo);
+            verificarStock(0);
             break;
         case "3":
             alert("Saliendo del programa.");
